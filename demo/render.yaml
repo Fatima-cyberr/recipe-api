@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: recipe-api  # Your service name
-    runtime: java     # Critical for Java apps
-    buildCommand: ./mvnw clean install  # Maven build
-    startCommand: java -jar target/*.jar  # Runs the JAR
-    env: java
